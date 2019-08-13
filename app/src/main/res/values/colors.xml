@@ -14,5 +14,6 @@
     <color name="colorTheme">#61A584</color>
     <color name="colorGray">#F2F2F2</color>
     <color name="colorBlack">#000000</color>
+    <color name="colorRed">#d9001b</color>
 
 </resources>

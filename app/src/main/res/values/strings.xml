@@ -76,13 +76,13 @@
     <string name="userinformation_main_address">我的地址</string>
     <string name="userinformation_main_hardware">IMEI号</string>
 
-    <string name="gift_main_accumulatepoint">我的积分</string>
+    <string name="gift_main_accumulatepoint">我的积分:</string>
     <string name="gift_main_record">兑奖记录</string>
     <string name="gift_adapter_number">所需积分</string>
 
     <string name="gift_emptyrecord">您还没有兑换过奖品</string>
 
-    <string name="gift_adapter_point">所需积分 </string>
+    <string name="gift_adapter_point">所需积分: </string>
 
     <string name="userinformation_phone_editText1">+86</string>
     <string name="userinformation_phone_editText2">请输入您的手机号</string>

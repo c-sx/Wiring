@@ -44,7 +44,7 @@ public class Message_Mainpage extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_homepage__message);
+        setContentView(R.layout.activity_homepage_message);
 
 
         /**

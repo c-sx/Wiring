@@ -11,6 +11,6 @@ public class Recharge_RechargePassword extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_recharge__password);
+        setContentView(R.layout.activity_recharge_password);
     }
 }

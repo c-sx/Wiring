@@ -20,7 +20,7 @@ public class Recharge_Mainpage extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_recharge__mainpage);
+        setContentView(R.layout.activity_recharge_mainpage);
 
         bt_recharge = findViewById(R.id.bt_recharge);
         bt_withdraw = findViewById(R.id.bt_withdraw);

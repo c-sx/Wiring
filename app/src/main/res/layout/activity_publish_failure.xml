@@ -21,16 +21,16 @@
             android:layout_marginTop="110dp"
             android:text="任务发布失败，请检查积分是否足够"
             android:textAlignment="center"
-            android:textColor="@color/colorText"
-            android:textSize="20dp" />
+            android:textColor="@color/colorBlack"
+            android:textSize="20sp" />
 
         <Button
             android:id="@+id/btn_publish_failure_return"
-            style="@style/ButtonBlueRound"
-            android:layout_width="70dp"
-            android:layout_height="30dp"
+            style="@style/ButtonWhiteRound"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
             android:layout_below="@id/tv_publish_failure"
-            android:layout_marginTop="140dp"
+            android:layout_marginTop="50dp"
             android:text="返回"
             android:textSize="12dp" />
     </RelativeLayout>

@@ -47,7 +47,7 @@ public class TaskCenter extends AppCompatActivity {
         ll_comment = findViewById(R.id.ll_center_comment);
 
         tool = new FragmentSwitchTool(getFragmentManager(), R.id.flContainer);
-        tool.setClickableViews(ll_whole, ll_publish, ll_complete ,ll_comment);
+        tool.setClickableViews(ll_whole, ll_publish, ll_complete, ll_comment);
         tool
                 .addSelectedViews(new View[]{tv_whole})
                 .addSelectedViews(new View[]{tv_publish})

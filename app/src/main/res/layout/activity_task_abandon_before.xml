@@ -66,6 +66,7 @@
             android:orientation="horizontal">
 
             <TextView
+                android:textColor="@color/colorAccent"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="end"
@@ -76,9 +77,10 @@
                 android:id="@+id/tv_task_abandon_before_price"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
                 android:layout_gravity="end"
                 android:layout_marginRight="20dp"
-                android:text="5.00"
+                android:text="5"
                 android:textSize="15dp" />
         </LinearLayout>
 
@@ -116,21 +118,17 @@
             android:orientation="horizontal">
 
             <Button
+                style="@style/ButtonWhiteRound"
                 android:id="@+id/btn_task_abandon_before_confirm"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:layout_marginHorizontal="30dp"
                 android:layout_weight="1"
-                android:background="@drawable/btn_white"
                 android:text="是的" />
 
             <Button
+                style="@style/ButtonGreenRound"
                 android:id="@+id/btn_task_abandon_before_cancel"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:layout_marginHorizontal="30dp"
                 android:layout_weight="1"
-                android:background="@drawable/btn_white"
                 android:text="我再考虑下" />
         </LinearLayout>
     </LinearLayout>

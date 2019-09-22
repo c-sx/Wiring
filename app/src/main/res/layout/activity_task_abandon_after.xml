@@ -116,21 +116,17 @@
             android:orientation="horizontal">
 
             <Button
+                style="@style/ButtonWhiteRound"
                 android:id="@+id/btn_task_abandon_after_confirm"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:layout_marginHorizontal="30dp"
                 android:layout_weight="1"
-                android:background="@drawable/btn_white"
                 android:text="是的" />
 
             <Button
+                style="@style/ButtonGreenRound"
                 android:id="@+id/btn_task_abandon_after_cancel"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:layout_marginHorizontal="30dp"
                 android:layout_weight="1"
-                android:background="@drawable/btn_white"
                 android:text="我再考虑下" />
         </LinearLayout>
     </LinearLayout>

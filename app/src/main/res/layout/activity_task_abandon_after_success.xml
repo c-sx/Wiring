@@ -36,11 +36,10 @@
             android:textSize="20dp" />
 
         <Button
+            style="@style/ButtonWhiteRound"
+            android:layout_width="120dp"
             android:id="@+id/btn_task_abandon_after_success"
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:background="@drawable/btn_white"
             android:text="好的"
             android:textSize="15dp" />
     </LinearLayout>
